@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @AllArgsConstructor
 @Tag(name = "password")
-public class PasswordValidatorRestController {
+public class PasswordRestController {
     private final PasswordValidateService passwordValidateService;
 
     @PostMapping(

@@ -20,7 +20,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest
-public class PasswordValidatorRestControllerTest {
+public class PasswordRestControllerTest {
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 
     @Autowired

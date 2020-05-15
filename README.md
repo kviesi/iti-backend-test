@@ -4,6 +4,7 @@ ubuntu 20.04
 openjdk 11.0.7 (2020-04-14)
 maven 3.6.3
 spring boot 2.2.7.RELEASE
+docker 19.03.8
 
 **Rodar os testes:**
 mvn clean test
